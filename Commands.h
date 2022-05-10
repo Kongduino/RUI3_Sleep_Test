@@ -25,6 +25,7 @@ myCommand cmds[] = {
   {sleepAll, "all", "sleep/all"},
   {sleepLoRa, "lora", "sleep/lora"},
   {handleHelp, "help", "Shows this help."},
+  {handleDelay, "sDelay", "Sets the sleep time."},
 };
 
 void handleHelp(char *param) {
